@@ -1,0 +1,97 @@
+@media only screen and (min-device-width : 320px) and (max-device-width :576px) {
+  body{
+    overflow-x:hidden;
+  }
+  .one {
+    height: 40vh;
+  }
+  .page1{
+  background-image: none;
+    background-color: #10176c; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  color:#ffffff;
+  background-size:100%;
+    
+}  
+  .block-glag {
+  margin-left: 0%;
+}
+  .page1, hr {
+  border-color: #fff;
+}
+  block-text, h5{
+    font-size: 45px;
+  }
+  block-text, h6{
+    font-size: 38px;
+  }
+  block-text, p {
+    font-size: 30px;
+  }
+  .nav {
+    background-color: #073d64;
+  } 
+  .Irina,.katerina,.Dmitriy,.Alyona  {
+    height: 75%;
+  }
+}
+@media only screen and (min-device-width : 577px) and (max-device-width : 991px){
+     .page1{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  color:#ffffff;
+  background-size:160%; 
+}
+  block-text, h5{
+    font-size: 40px;
+  }
+  block-text, h6{
+    font-size: 33px;
+  }
+  block-text, p {
+    font-size: 25px;
+  }
+  
+  .block-glag {
+  margin-left: -3%;
+}
+  .Irina,.katerina,.Dmitriy,.Alyona  {
+    height: 75%;
+  }
+}
+@media only screen and (min-device-width : 991px) and (max-device-width : 1200px) {
+   .Irina  {
+    height: 50%;
+  }
+.katerina{
+   height: 50%;
+}
+.Alyona {
+   height: 55%;
+}
+.Dmitriy {
+   height: 50%; 
+}
+  big,small{
+    margin:0px;
+    float: left
+  }
+  .navbar-nav {
+    margin-right: 10%;
+  }
+}
+
+@media only screen and (min-device-width : 1120px) and (max-device-width : 1360px){
+    .one {
+    color: red;
+       display: none;
+  }
+    
+}
+    
+    
